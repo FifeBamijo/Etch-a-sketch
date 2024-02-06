@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+}
+h6 {
+  display: inline;
+  font-size: 14px;
+}
+input {
+  margin-left: 10px;
+  width: 50px;
+  border-radius: 5px;
+  height: 25px;
+}
+p {
+  display: inline;
+  font-size: 12px;
+  color: rgb(219, 6, 6);
+}
+.board {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  border: 1px solid black;
+}
+
+h5 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-weight: 100;
+}
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+  margin-top: 20px;
+}
+button {
+  padding: 9px 17px;
+  border: none;
+}
+#select {
+  background-color: brown;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#black {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#random {
+  background: linear-gradient(90deg, red, blue, violet);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+#erase {
+  background-color: antiquewhite;
+  border-radius: 5px;
+  border: 1px solid rgb(190, 190, 190);
+  cursor: pointer;
+}
+#reset {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(194, 56, 56);
+  color: white;
+}
